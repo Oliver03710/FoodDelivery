@@ -349,7 +349,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="1"/>
                                         <connections>
-                                            <segue destination="Sg5-YQ-8BV" kind="presentation" id="RNW-Rs-Gnm"/>
+                                            <action selector="imageButton1Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ekt-HV-JLH"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0h-w3-Usj">
@@ -361,6 +361,9 @@
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="2"/>
+                                        <connections>
+                                            <action selector="imageButton2Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HCU-eK-Tjx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bfw-B9-iMB">
                                         <rect key="frame" x="186" y="0.0" width="70" height="75"/>
@@ -371,6 +374,9 @@
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="3"/>
+                                        <connections>
+                                            <action selector="imageButton3Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ApL-aF-uN7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0d-lX-16M">
                                         <rect key="frame" x="279" y="0.0" width="70" height="75"/>
@@ -567,11 +573,14 @@
                         <outlet property="thirdFoodImageView" destination="DTK-Zq-sLC" id="fUX-ed-SeP"/>
                         <outlet property="thirteenthFoodImageVIew" destination="mH1-aR-IwK" id="uA3-VP-cvB"/>
                         <outlet property="twelfthFoodImageView" destination="UJ1-Ul-v9e" id="GTV-dL-GA4"/>
+                        <segue destination="xXM-en-C7s" kind="presentation" identifier="toMelonVC" id="LjE-u8-ncB"/>
+                        <segue destination="tEf-hJ-ep6" kind="presentation" identifier="toBaeminVC" id="uiL-Ln-CmN"/>
+                        <segue destination="Sg5-YQ-8BV" kind="presentation" identifier="toKakaotalkVC" id="CPA-1u-XPG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="435" y="94"/>
+            <point key="canvasLocation" x="507" y="84"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CkA-jP-gU5">
@@ -586,7 +595,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ECf-DD-B1H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1110" y="94"/>
+            <point key="canvasLocation" x="1338" y="-663"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tH7-D6-9Y8">
+            <objects>
+                <viewController id="xXM-en-C7s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wWs-fG-u1f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="kPO-S5-Him"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1wd-Sr-jnk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1339" y="84"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OUU-7k-Zvr">
+            <objects>
+                <viewController id="tEf-hJ-ep6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ymc-Hi-ZyJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bjK-27-xzU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JPj-jT-kCL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1338" y="814"/>
         </scene>
     </scenes>
     <resources>

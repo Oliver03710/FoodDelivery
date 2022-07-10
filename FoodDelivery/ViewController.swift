@@ -42,24 +42,40 @@ class ViewController: UIViewController {
     // MARK: - Helper Functions
     
     func configureUI() {
-        firstFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        secondFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        thirdFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        fourthFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        fifthFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        sixthFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        seventhFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        eighthFoodImageVIew.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        ninethFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        tenthFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        eleventhFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        twelfthFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        thirteenthFoodImageVIew.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        fourteenthFoodImageVIew.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        fifteenthFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
-        sixteenthFoodImageView.image = UIImage(named: imageArray[Int.random(in: 0...imageArray.count - 1)])
+        
+        let tempArray = imageArray.shuffled()
+        
+        firstFoodImageView.image = UIImage(named: tempArray[0])
+        secondFoodImageView.image = UIImage(named: tempArray[1])
+        thirdFoodImageView.image = UIImage(named: tempArray[2])
+        fourthFoodImageView.image = UIImage(named: tempArray[3])
+        fifthFoodImageView.image = UIImage(named: tempArray[4])
+        sixthFoodImageView.image = UIImage(named: tempArray[5])
+        seventhFoodImageView.image = UIImage(named: tempArray[6])
+        eighthFoodImageVIew.image = UIImage(named: tempArray[7])
+        ninethFoodImageView.image = UIImage(named: tempArray[8])
+        tenthFoodImageView.image = UIImage(named: tempArray[9])
+        eleventhFoodImageView.image = UIImage(named: tempArray[10])
+        twelfthFoodImageView.image = UIImage(named: tempArray[11])
+        thirteenthFoodImageVIew.image = UIImage(named: tempArray[12])
+        fourteenthFoodImageVIew.image = UIImage(named: tempArray[13])
+        fifteenthFoodImageView.image = UIImage(named: tempArray[14])
+        sixteenthFoodImageView.image = UIImage(named: tempArray[15])
     }
-
-
+    
+    @IBAction func imageButton1Tapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "toKakaotalkVC", sender: self)
+        }
+        
+    @IBAction func imageButton2Tapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "toMelonVC", sender: self)
+    }
+    
+    @IBAction func imageButton3Tapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "toBaeminVC", sender: self)
+    }
 }
+
+
+
 
