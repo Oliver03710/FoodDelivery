@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD376CA5287C81E50062A2FD /* KakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD376CA4287C81E50062A2FD /* KakaoViewController.swift */; };
 		AD9F51D32877B5E200ACAC97 /* GithubTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9F51D22877B5E200ACAC97 /* GithubTestViewController.swift */; };
 		ADA2F35A287457DF007394E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2F359287457DF007394E5 /* AppDelegate.swift */; };
 		ADA2F35C287457DF007394E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2F35B287457DF007394E5 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD376CA4287C81E50062A2FD /* KakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoViewController.swift; sourceTree = "<group>"; };
 		AD9F51D22877B5E200ACAC97 /* GithubTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTestViewController.swift; sourceTree = "<group>"; };
 		ADA2F356287457DF007394E5 /* FoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA2F359287457DF007394E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				ADA2F35D287457DF007394E5 /* ViewController.swift */,
 				AD9F51D22877B5E200ACAC97 /* GithubTestViewController.swift */,
 				ADA2F35F287457DF007394E5 /* Main.storyboard */,
+				AD376CA4287C81E50062A2FD /* KakaoViewController.swift */,
 				ADA2F362287457E0007394E5 /* Assets.xcassets */,
 				ADA2F364287457E0007394E5 /* LaunchScreen.storyboard */,
 				ADA2F367287457E0007394E5 /* Info.plist */,
@@ -144,6 +147,7 @@
 				ADA2F35E287457DF007394E5 /* ViewController.swift in Sources */,
 				ADA2F35A287457DF007394E5 /* AppDelegate.swift in Sources */,
 				ADA2F35C287457DF007394E5 /* SceneDelegate.swift in Sources */,
+				AD376CA5287C81E50062A2FD /* KakaoViewController.swift in Sources */,
 				AD9F51D32877B5E200ACAC97 /* GithubTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

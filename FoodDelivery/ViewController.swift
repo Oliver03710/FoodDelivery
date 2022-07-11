@@ -64,15 +64,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func imageButton1Tapped(_ sender: UIButton) {
-        performSegue(withIdentifier: "toKakaotalkVC", sender: self)
+
         }
         
     @IBAction func imageButton2Tapped(_ sender: UIButton) {
-        performSegue(withIdentifier: "toMelonVC", sender: self)
+
     }
     
     @IBAction func imageButton3Tapped(_ sender: UIButton) {
-        performSegue(withIdentifier: "toBaeminVC", sender: self)
+
     }
 }
 
