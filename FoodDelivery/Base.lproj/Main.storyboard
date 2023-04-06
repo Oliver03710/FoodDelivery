@@ -687,11 +687,11 @@
                                         <buttonConfiguration key="configuration" style="plain" image="xmark" catalog="system"/>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vfB-Tf-kPe">
-                                        <rect key="frame" x="38.5" y="0.0" width="243.5" height="32.5"/>
+                                        <rect key="frame" x="38.5" y="0.0" width="282.5" height="32.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvp-cf-PSG">
-                                        <rect key="frame" x="288" y="0.0" width="33" height="32.5"/>
+                                        <rect key="frame" x="327" y="0.0" width="32.5" height="32.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="gvp-cf-PSG" secondAttribute="height" id="dn1-Dk-S9n"/>
                                         </constraints>
@@ -699,8 +699,8 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="gift" catalog="system"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="592-xm-6lB">
-                                        <rect key="frame" x="327" y="0.0" width="32.5" height="32.5"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="592-xm-6lB">
+                                        <rect key="frame" x="362.5" y="0.0" width="32.5" height="32.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="592-xm-6lB" secondAttribute="height" id="7Pu-Cp-7NA"/>
                                         </constraints>
@@ -1489,7 +1489,9 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SA5-2h-1PP">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="scrollEdgeAppearance"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="zGH-ub-DzH"/>
@@ -1574,7 +1576,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LTc-Aa-yf5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="619" y="515"/>
+            <point key="canvasLocation" x="618.84057971014499" y="514.95535714285711"/>
         </scene>
         <!--Item-->
         <scene sceneID="I0b-VR-iaW">
